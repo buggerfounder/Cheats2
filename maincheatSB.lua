@@ -1,5 +1,6 @@
 local partiros = Instance.new("Part", workspace)
 partiros.Size = Vector3.new(100000, 1, 100000)
+partiros.Anchored = true
 local UIS = game:GetService("UserInputService")
 print("Hi this is working Script Cobaken555")
 local debounce = false
